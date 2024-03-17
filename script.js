@@ -41,7 +41,7 @@ function showTodo(filter) {
     });
   }
   // if li isn't empty,insert this value inside taskbox else insert span
-  taskBox.innerHTML = li || `<span>Бермет у вас нет никакой задачи здесь</span>`;
+  taskBox.innerHTML = li || `<span>Жыпара у вас нет никакой задачи здесь</span>`;
 }
 showTodo('all');
 
